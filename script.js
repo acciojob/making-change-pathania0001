@@ -1,6 +1,7 @@
 const makeChange = (c) => {
    const oneUnit = {p : 1,n : 5,d : 10,q : 25,}
-	let res = {"p" : 0,"n" : 0,"d" : 0,"q" : 0,};
+
+	let res = {"q" : 0,"d" : 0,"n" : 0,"p" : 0,};
 
 	let temp = Number(c);
 
