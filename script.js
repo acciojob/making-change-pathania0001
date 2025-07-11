@@ -1,6 +1,6 @@
 const makeChange = (c) => {
    const oneUnit = {p : 1,n : 5,d : 10,q : 25,}
-	let res = {p : 0,n : 0,d : 0,q : 0,};
+	let res = {"p" : 0,"n" : 0,"d" : 0,"q" : 0,};
 
 	let temp = Number(c);
 
@@ -25,6 +25,7 @@ const makeChange = (c) => {
 		}
 	return res;
 };
+
 
 // Do not the change the code below
 const c = prompt("Enter c: ");
